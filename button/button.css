@@ -134,4 +134,9 @@ iframe{
 .float-btn:hover{
     background-color: var(--primary-hover);
 }
-
+.link-btn{
+    border: none;
+}
+#link-a{
+    color: black;
+}

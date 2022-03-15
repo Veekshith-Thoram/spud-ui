@@ -26,3 +26,19 @@ nav{
 #tweet-img{
     width:30px;
 }
+
+#line{
+    margin: 1rem;
+    padding: 0.1px;
+    background-color: gray;
+}
+
+iframe{
+    margin-left: 12rem;
+    margin-top: 1rem;
+}
+
+.desc-txt{
+    /* font-size: large; */
+    font-weight: 600;
+}

@@ -1,0 +1,54 @@
+:root{
+    --primary-color: #34D399;
+    --secondary-color: ;
+    
+}
+
+
+body{
+    margin: 0 auto;
+}
+
+.nav-li{
+    list-style-type: none;
+    float: right;
+}
+
+.nav-ul{
+    display: inline;
+    margin-left: -15px;
+}
+
+nav{
+    padding: 2rem;
+}
+
+#tweet-img{
+    width:30px;
+}
+
+#line{
+    margin: 1rem;
+    padding: 0.1px;
+    background-color: gray;
+}
+
+iframe{
+    margin-left: 10%;
+    margin-top: 1rem;
+}
+
+.desc-txt{
+    /* font-size: large; */
+    font-weight: 600;
+}
+
+#img-res{
+    width: auto;
+    height: auto;
+}
+#img-round{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}

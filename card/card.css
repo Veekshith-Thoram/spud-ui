@@ -1,0 +1,28 @@
+:root{
+    --primary-color: #34D399;
+    --secondary-color: ;
+    
+}
+
+
+body{
+    margin: 0 auto;
+}
+
+.nav-li{
+    list-style-type: none;
+    float: right;
+}
+
+.nav-ul{
+    display: inline;
+    margin-left: -15px;
+}
+
+nav{
+    padding: 2rem;
+}
+
+#tweet-img{
+    width:30px;
+}

@@ -9,36 +9,196 @@ body{
     margin: 0 auto;
 }
 
-.nav-li{
-    list-style-type: none;
-    float: right;
-}
-
-.nav-ul{
-    display: inline;
-    margin-left: -15px;
-}
-
-nav{
-    padding: 2rem;
-}
-
 #tweet-img{
     width:30px;
 }
 
-#line{
+.line{
     margin: 1rem;
     padding: 0.1px;
     background-color: gray;
 }
 
 iframe{
-    margin-left: 12rem;
+    margin-left: 10%;
     margin-top: 1rem;
 }
 
 .desc-txt{
-    /* font-size: large; */
+    
+    margin-top: 0.5rem;
     font-weight: 600;
+}
+
+#card-with-badge{
+    position: relative;
+    width: 290px;
+    height: 230px;
+    text-align: center;
+    background-color: #90e7f3;
+}
+
+#badge{
+    background-color: rgb(21, 173, 184);
+    width: 3.37rem;
+    padding: 0.3rem;
+    color: rgb(217, 222, 235);
+    position: absolute;
+    top: 0rem;
+    left: 0.8rem;
+}
+#image-icon{
+    width: 18rem;
+}
+
+.btns{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 0.3rem;
+    
+}
+.btn{
+    background-color: rgb(31, 224, 208);
+    border: none;
+    color: white;
+    margin-left: 0.2rem;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+}
+#dismiss{
+    position: absolute;
+    right: 0.3rem;
+    top: 0.1rem;
+    color: white;
+}
+#dismiss:hover{
+    cursor: pointer;
+}
+.desc-overlay{
+    position: absolute;
+    bottom: 4rem;
+    /* text-align: center; */
+    color: white;
+}
+.movie-overlay{
+    position: absolute;
+    bottom: 3rem;
+    color: white;
+}
+
+#card-with-textoverlay{
+    position: relative;
+    width: 290px;
+    height: 200px;
+    text-align: center;
+    background-color: #90e7f3;
+}
+
+#card-with-text{
+    position: relative;
+    width: 290px;
+    height: 70px;
+    text-align: center;
+    background-color: #90e7f3;
+    /* display: flex; */
+    /* flex-direction: row; */
+    
+}
+.card-with-text-container{
+    /* margin: 1rem; */
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+}
+.horizontal-card{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* height: 200px; */
+}
+#image-icon-horizontal{
+    width: 10rem;
+}
+
+.fake-style{
+    position: absolute;
+}
+.btn-down{
+    bottom: 0.5rem;
+    right: 0.3rem;
+}
+.text-left{
+    right: -7.5rem;
+    top: 1rem;
+}
+#card-with-badge-horizontal{
+    position: relative;
+    width: 290px;
+    height: 120px;
+    text-align: center;
+    background-color: #90e7f3;
+}
+#card-with-badge-shadow{
+    position: relative;
+    width: 290px;
+    height: 120px;
+    text-align: center;
+    background-color: #90e7f3;
+    box-shadow: 3px 3px gray;
+}
+
+.container{
+    position: relative;
+}
+.sidenav-container{
+    position: fixed;
+}
+
+.main-container{
+    position: absolute;
+    left: 10rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+
+.nav-pills{
+    text-align: right;
+}
+.list-non-bullet{
+    list-style: none;
+}
+
+.inline-item{
+    display:inline;
+    padding: 0rem 0.5rem;
+}
+
+.heading-text{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.links{
+    text-decoration: none;
+    /* margin-top: 3rem; */
+    color: black;
+    font-size: 1.5rem;
+}
+.links:hover{
+    color: var(--primary-color);
+}
+.side-nav-link{
+    margin-top: 1rem;
 }

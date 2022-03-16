@@ -34,7 +34,7 @@ nav{
 }
 
 iframe{
-    margin-left: 10%;
+    /* margin-left: 10%; */
     margin-top: 1rem;
 }
 
@@ -48,7 +48,6 @@ iframe{
     flex-direction: row;
     flex-wrap: wrap;
 }
-/* list style lower-alpha decimal lower-roman */
 
 .roman-list{
     list-style: lower-roman;

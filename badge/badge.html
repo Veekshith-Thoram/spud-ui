@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,59 +8,95 @@
     <title>SpudUI|Badge</title>
     <link rel="stylesheet" href="badge.css">
 </head>
+
 <body>
     <nav class="navigation">
-        <div>Spud UI</div>
-        <li class="nav-li">
-            <ul class="nav-ul"><img src="/badge/images/icons8-github-30.png" id="git-img" alt="github"></ul>
-            <ul class="nav-ul"><img src="/badge/images/icons8-twitter-50.png" id="tweet-img" alt="twitter"></ul>
-            <ul class="nav-ul"><img src="/badge/images/icons8-linkedin-30.png" id="linkedin-img" alt="linkedin"></ul>
-        </li>
+        <div class="nav-brand">Spud Ui</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="inline-item">
+                <a class="links" target="_blank" href="https://github.com/Veekshith-Thoram"><img
+                        src="/badge/images/icons8-github-30.png" id="git-img" alt="github"></a>
+            </li>
+
+            <li class="inline-item">
+                <a class="links" target="_blank" href="https://twitter.com/ThoramVeekshith"><img
+                        src="/badge/images/icons8-twitter-50.png" id="tweet-img" alt="twitter"></a>
+            </li>
+
+            <li class="inline-item">
+                <a class="links" target="_blank" href="https://www.linkedin.com/in/veekshith-thoram-72b973217/"><img
+                        src="/badge/images/icons8-linkedin-30.png" id="linkedin-img" alt="linkedin"></a>
+            </li>
+        </ul>
+
     </nav>
+    <div class="container">
+        <div class="sidenav-container">
+            <nav class="side-nav">
+                <ul class="list-non-bullet">
+                    <li class="side-nav-link"><a class="links" href="#">Avatar</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Alert</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Badge</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Button</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Card</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Image</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Input</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Lists</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Toast</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Text</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-container">
+            <h1>Badge</h1>
+            <div class="desc-txt">Badges are used to add additional information to any content. A badge can be used to
+                show the active status of a user or to count
+                no.of items in the cart.
+            </div>
+            <div class="line"></div>
+            <div class="heading-text">Badge on avatars</div>
+            <div class="badges">
+                <div class="badge-wrap">
+                    <img src="./images/spud-icon.jpg" class="avatar-img" id="badge-online" alt="avatar">
+                    <div class="badge badge-online"></div>
+                </div>
+                <div class="badge-wrap">
+                    <img src="./images/spud-icon.jpg" class="avatar-img" id="badge-online" alt="avatar">
+                    <div class="badge badge-offline"></div>
+                </div>
+                <div class="badge-wrap">
+                    <img src="./images/spud-icon.jpg" class="avatar-img" id="badge-online" alt="avatar">
+                    <div class="badge badge-busy"></div>
+                </div>
+            </div>
+            <div class="desc-txt">The code snippet creating the badges on avatars is here.</div>
 
-    <h1>Badge</h1>
-    <div>Badges are used to add additional information to any content. A badge can be used to show the active status of a user or to count 
-        no.of items in the cart.
-    </div>
-    <div id="line"></div>
-    <h2>Badge on avatars</h2>
-    <div class="badges">
-        <div class="badge-wrap">
-            <img src="./images/spud-icon.jpg" class="avatar-img" id="badge-online" alt="avatar">
-            <div class="badge badge-online"></div>
-        </div>
-        <div class="badge-wrap">
-            <img src="./images/spud-icon.jpg" class="avatar-img" id="badge-online" alt="avatar">
-            <div class="badge badge-offline"></div>
-        </div>
-        <div class="badge-wrap">
-            <img src="./images/spud-icon.jpg" class="avatar-img" id="badge-online" alt="avatar">
-            <div class="badge badge-busy"></div>
-        </div>
-    </div>
-    <div class="desc-txt">The code snippet creating the badges on avatars is here.</div>
+            <iframe src="https://www.thiscodeworks.com/embed/622f73b7ecc7d70015fae02e" style="height: 280px;"
+                frameborder="0"></iframe>
+            <div class="line"></div>
 
-    <!-- <iframe src="https://www.thiscodeworks.com/embed/622f73b7ecc7d70015fae02e" style="width: 70%; height: 280px;" frameborder="0"></iframe> -->
-    <div id="line"></div>
 
-    
-    <h2>Badge on icons</h2>
-    <div class="badges">
-        <div class="badge-wrap">
-            <img src="/badge/images/message-icon.png" alt="message icon" class="badge-icon">
-            <div class="badge notification-count">5</div>
-        </div>
-        <div class="badge-wrap">
-            <img src="/badge/images/notif-icon.png" alt="message icon" class="badge-icon">
-            <div class="badge notification-count">5</div>
-        </div>
-        
-        <div class="badge-wrap">
-            <img src="/badge/images/cart-image.png" alt="message icon" class="badge-icon">
-            <div class="badge notification-count">5</div>
+            <div class="heading-text">Badge on icons</div>
+            <div class="badges">
+                <div class="badge-wrap">
+                    <img src="/badge/images/message-icon.png" alt="message icon" class="badge-icon">
+                    <div class="badge notification-count">5</div>
+                </div>
+                <div class="badge-wrap">
+                    <img src="/badge/images/notif-icon.png" alt="message icon" class="badge-icon">
+                    <div class="badge notification-count">5</div>
+                </div>
+
+                <div class="badge-wrap">
+                    <img src="/badge/images/cart-image.png" alt="message icon" class="badge-icon">
+                    <div class="badge notification-count">5</div>
+                </div>
+            </div>
+            <div class="desc-txt">The code snippet creating the badges on icons is here.</div>
+            <iframe src="https://www.thiscodeworks.com/embed/622f78daecc7d70015fae030" style="height: 281px;"
+                frameborder="0"></iframe>
         </div>
     </div>
-    <div class="desc-txt">The code snippet creating the badges on icons is here.</div>
-    <iframe src="https://www.thiscodeworks.com/embed/622f78daecc7d70015fae030" style="width: 70%; height: 281px;" frameborder="0"></iframe>
 </body>
+
 </html>

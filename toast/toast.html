@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,25 +8,61 @@
     <title>SpudUI | Toast</title>
     <link rel="stylesheet" href="toast.css">
 </head>
+
 <body>
     <nav class="navigation">
-        <div>Spud UI</div>
-        <li class="nav-li">
-            <ul class="nav-ul"><img src="/toast/images/icons8-github-30.png" id="git-img" alt="github"></ul>
-            <ul class="nav-ul"><img src="/toast/images/icons8-twitter-50.png" id="tweet-img" alt="twitter"></ul>
-            <ul class="nav-ul"><img src="/toast/images/icons8-linkedin-30.png" id="linkedin-img" alt="linkedin"></ul>
-        </li>
+        <div class="nav-brand">Spud Ui</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="inline-item">
+                <a class="links" target="_blank" href="https://github.com/Veekshith-Thoram"><img
+                        src="/image/images/icons8-github-30.png" id="git-img" alt="github"></a>
+            </li>
+
+            <li class="inline-item">
+                <a class="links" target="_blank" href="https://twitter.com/ThoramVeekshith"><img
+                        src="/image/images/icons8-twitter-50.png" id="tweet-img" alt="twitter"></a>
+            </li>
+
+            <li class="inline-item">
+                <a class="links" target="_blank" href="https://www.linkedin.com/in/veekshith-thoram-72b973217/"><img
+                        src="/image/images/icons8-linkedin-30.png" id="linkedin-img" alt="linkedin"></a>
+            </li>
+        </ul>
+
     </nav>
-    <h1>Toast</h1>
-    <div class="desc-txt">A toast is basically an alert which appears for a few seconds.</div>
-    <div id="line"></div>
-    <h2>Simple Toast</h2>
-    <div class="toast-wrapper">
-        <div class="toast-btn" id="toast-btn">Toast</div>
+    <div class="container">
+        <div class="sidenav-container">
+            <nav class="side-nav">
+                <ul class="list-non-bullet">
+                    <li class="side-nav-link"><a class="links" href="#">Avatar</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Alert</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Badge</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Button</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Card</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Image</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Input</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Lists</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Toast</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Text</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-container">
+            <h1>Toast</h1>
+            <div class="desc-txt">A toast is basically an alert which appears for a few seconds.</div>
+            <div class="line"></div>
+            <h2>Simple Toast</h2>
+            <div class="toast-wrapper">
+                <div class="toast-btn" id="toast-btn">Toast</div>
+            </div>
+            <div class="toast-wrapper side-view" id="toast-text">Here is the Toast.</div>
+            <div class="desc-txt">The code snippet to the toast is below.</div>
+            <iframe src="https://www.thiscodeworks.com/embed/6230a4b44ee3f10015ca3f35"
+                style="height: 138px;" frameborder="0"></iframe>
+        </div>
     </div>
-    <div class="toast-wrapper side-view" id="toast-text">Here is the Toast.</div>
-    <div class="desc-txt">The code snippet to the toast is below.</div>
-    <iframe src="https://www.thiscodeworks.com/embed/6230a4b44ee3f10015ca3f35" style="width: 70%; height: 138px;" frameborder="0"></iframe>
+
     <script src="/toast/toast.js"></script>
 </body>
+
 </html>

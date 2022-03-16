@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
 :root{
     --primary-color: #34D399;
     --secondary-color: ;
@@ -7,40 +9,82 @@
 
 body{
     margin: 0 auto;
-}
-
-.nav-li{
-    list-style-type: none;
-    float: right;
-}
-
-.nav-ul{
-    display: inline;
-    margin-left: -15px;
-}
-
-nav{
-    padding: 2rem;
+    font-family: 'Fredoka', sans-serif;
 }
 
 #tweet-img{
     width:30px;
 }
 
-#line{
+.line{
     margin: 1rem;
     padding: 0.1px;
     background-color: gray;
 }
 
 iframe{
-    margin-left: 10%;
     margin-top: 1rem;
+    min-width: 130%;
 }
 
 .desc-txt{
-    /* font-size: large; */
+    
+    margin-top: 0.5rem;
     font-weight: 600;
+}
+
+.container{
+    position: relative;
+}
+.sidenav-container{
+    position: fixed;
+}
+
+.main-container{
+    position: absolute;
+    left: 10rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+
+.nav-pills{
+    text-align: right;
+}
+.list-non-bullet{
+    list-style: none;
+}
+
+.inline-item{
+    display:inline;
+    padding: 0rem 0.5rem;
+}
+
+.heading-text{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.links{
+    text-decoration: none;
+    /* margin-top: 3rem; */
+    color: black;
+    font-size: 1.5rem;
+}
+.links:hover{
+    color: var(--primary-color);
+}
+.side-nav-link{
+    margin-top: 1rem;
 }
 
 

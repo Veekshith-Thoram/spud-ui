@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,64 @@
     <title>SpudUI | Input</title>
     <link rel="stylesheet" href="input.css">
 </head>
+
 <body>
     <nav class="navigation">
-        <div>Spud UI</div>
-        <li class="nav-li">
-            <ul class="nav-ul"><img src="/input/images/icons8-github-30.png" id="git-img" alt="github"></ul>
-            <ul class="nav-ul"><img src="/input/images/icons8-twitter-50.png" id="tweet-img" alt="twitter"></ul>
-            <ul class="nav-ul"><img src="/input/images/icons8-linkedin-30.png" id="linkedin-img" alt="linkedin"></ul>
-        </li>
+        <div class="nav-brand">Spud Ui</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="inline-item">
+                <a class="links" target="_blank" href="https://github.com/Veekshith-Thoram"><img
+                        src="/input/images/icons8-github-30.png" id="git-img" alt="github"></a>
+            </li>
+
+            <li class="inline-item">
+                <a class="links" target="_blank" href="https://twitter.com/ThoramVeekshith"><img
+                        src="/input/images/icons8-twitter-50.png" id="tweet-img" alt="twitter"></a>
+            </li>
+
+            <li class="inline-item">
+                <a class="links" target="_blank" href="https://www.linkedin.com/in/veekshith-thoram-72b973217/"><img
+                        src="/input/images/icons8-linkedin-30.png" id="linkedin-img" alt="linkedin"></a>
+            </li>
+        </ul>
+
     </nav>
-    <h1>Input</h1>
-    <div class="desc-txt">Inputs are used to get the data from the user.</div>
-    <div id="line"></div>
-    <h2>Simple Input</h2>
-    <input type="text" placeholder="name" class="simple-input">
-    <div class="desc-txt">The code snippet to create the basic input field is below.</div>
-    <iframe src="https://www.thiscodeworks.com/embed/6230793b4ee3f10015ca3f03" style="width: 70%; height: 99px;" frameborder="0"></iframe>
-    <div id="line"></div>
-    <h2>Input with Validation</h2>
-    <div class="desc-txt">The input with validation validates the data entered by the user.</div>
-    <input type="text" class="simple-input" placeholder="email">
-    <div class="validate-text desc-txt">Please enter the email address.</div>
-    <div class="desc-txt">The code snippet to create the input with validation is below.</div>
-    <iframe src="https://www.thiscodeworks.com/embed/62307b7a4ee3f10015ca3f04" style="width: 70%; height: 112px;" frameborder="0"></iframe>
+    <div class="container">
+        <div class="sidenav-container">
+            <nav class="side-nav">
+                <ul class="list-non-bullet">
+                    <li class="side-nav-link"><a class="links" href="#">Avatar</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Alert</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Badge</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Button</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Card</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Image</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Input</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Lists</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Toast</a></li>
+                    <li class="side-nav-link"><a class="links" href="#">Text</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-container">
+            <h1>Input</h1>
+            <div class="desc-txt">Inputs are used to get the data from the user.</div>
+            <div class="line"></div>
+            <h2>Simple Input</h2>
+            <input type="text" placeholder="name" class="simple-input">
+            <div class="desc-txt">The code snippet to create the basic input field is below.</div>
+            <iframe src="https://www.thiscodeworks.com/embed/6230793b4ee3f10015ca3f03" style="height: 99px;"
+                frameborder="0"></iframe>
+            <div class="line"></div>
+            <h2>Input with Validation</h2>
+            <div class="desc-txt">The input with validation validates the data entered by the user.</div>
+            <input type="text" class="simple-input" placeholder="email">
+            <div class="validate-text desc-txt">Please enter the email address.</div>
+            <div class="desc-txt">The code snippet to create the input with validation is below.</div>
+            <iframe src="https://www.thiscodeworks.com/embed/62307b7a4ee3f10015ca3f04"
+                style="height: 112px;" frameborder="0"></iframe>
+        </div>
+    </div>
 </body>
+
 </html>

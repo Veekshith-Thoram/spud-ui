@@ -2,7 +2,6 @@
 
 :root{
     --primary-color: #34D399;
-    --secondary-color: ;
     
 }
 
@@ -76,7 +75,6 @@ iframe{
 }
 .links{
     text-decoration: none;
-    /* margin-top: 3rem; */
     color: black;
     font-size: 1.5rem;
 }

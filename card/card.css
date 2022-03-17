@@ -1,41 +1,38 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 
-:root{
+:root {
     --primary-color: #34D399;
-    --secondary-color: ;
-    
+
 }
 
 
-body{
+body {
     margin: 0 auto;
     font-family: 'Fredoka', sans-serif;
 }
 
-#tweet-img{
-    width:30px;
+#tweet-img {
+    width: 30px;
 }
 
-.line{
+.line {
     margin: 1rem;
     padding: 0.1px;
     background-color: gray;
 }
 
-iframe{
-    /* margin-left: 10%; */
+iframe {
     margin-top: 1rem;
     min-width: 90%;
 }
 
-.desc-txt{
-    
+.desc-txt {
+
     margin-top: 0.5rem;
     font-weight: 600;
 }
 
-#card-with-badge{
+#card-with-badge {
     position: relative;
     width: 290px;
     height: 230px;
@@ -43,7 +40,7 @@ iframe{
     background-color: #90e7f3;
 }
 
-#badge{
+#badge {
     background-color: rgb(21, 173, 184);
     width: 3.37rem;
     padding: 0.3rem;
@@ -52,48 +49,54 @@ iframe{
     top: 0rem;
     left: 0.8rem;
 }
-#image-icon{
+
+#image-icon {
     width: 18rem;
 }
 
-.btns{
+.btns {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     margin-top: 0.3rem;
-    
+
 }
-.btn{
+
+.btn {
     background-color: rgb(31, 224, 208);
     border: none;
     color: white;
     margin-left: 0.2rem;
     cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     color: black;
 }
-#dismiss{
+
+#dismiss {
     position: absolute;
     right: 0.3rem;
     top: 0.1rem;
     color: white;
 }
-#dismiss:hover{
+
+#dismiss:hover {
     cursor: pointer;
 }
-.desc-overlay{
+
+.desc-overlay {
     position: absolute;
     bottom: 4rem;
-    /* text-align: center; */
     color: white;
 }
-.movie-overlay{
+
+.movie-overlay {
     position: absolute;
     bottom: 3rem;
     color: white;
 }
 
-#card-with-textoverlay{
+#card-with-textoverlay {
     position: relative;
     width: 290px;
     height: 200px;
@@ -101,50 +104,53 @@ iframe{
     background-color: #90e7f3;
 }
 
-#card-with-text{
+#card-with-text {
     position: relative;
     width: 290px;
     height: 70px;
     text-align: center;
     background-color: #90e7f3;
-    /* display: flex; */
-    /* flex-direction: row; */
-    
 }
-.card-with-text-container{
-    /* margin: 1rem; */
+
+.card-with-text-container {
     position: absolute;
     top: 0.5rem;
     left: 2rem;
 }
-.horizontal-card{
+
+.horizontal-card {
     position: relative;
     display: flex;
     flex-direction: row;
 }
-#image-icon-horizontal{
+
+#image-icon-horizontal {
     width: 10rem;
 }
 
-.fake-style{
+.fake-style {
     position: absolute;
 }
-.btn-down{
+
+.btn-down {
     bottom: 0.5rem;
     right: 0.3rem;
 }
-.text-left{
+
+.text-left {
     right: -7.9rem;
     top: 1rem;
 }
-#card-with-badge-horizontal{
+
+#card-with-badge-horizontal {
     position: relative;
     width: 290px;
     height: 120px;
     text-align: center;
     background-color: #90e7f3;
 }
-#card-with-badge-shadow{
+
+#card-with-badge-shadow {
     position: relative;
     width: 290px;
     height: 120px;
@@ -153,56 +159,60 @@ iframe{
     box-shadow: 3px 3px gray;
 }
 
-.container{
+.container {
     position: relative;
 }
-.sidenav-container{
+
+.sidenav-container {
     position: fixed;
 }
 
-.main-container{
+.main-container {
     position: absolute;
     left: 10rem;
 }
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 0.5rem;
     border-bottom-right-radius: 1rem;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 2rem;
-    
+
 }
 
-.nav-pills{
+.nav-pills {
     text-align: right;
 }
-.list-non-bullet{
+
+.list-non-bullet {
     list-style: none;
 }
 
-.inline-item{
-    display:inline;
+.inline-item {
+    display: inline;
     padding: 0rem 0.5rem;
 }
 
-.heading-text{
+.heading-text {
     font-size: 1.3rem;
     font-weight: bold;
 }
-.links{
+
+.links {
     text-decoration: none;
-    /* margin-top: 3rem; */
     color: black;
     font-size: 1.5rem;
 }
-.links:hover{
+
+.links:hover {
     color: var(--primary-color);
 }
-.side-nav-link{
+
+.side-nav-link {
     margin-top: 1rem;
 }

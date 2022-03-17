@@ -1,96 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 
-:root{
+:root {
     --primary-color: #34D399;
-    --secondary-color: ;
     --input-color: #71717a;
 }
 
 
 
-body{
+body {
     margin: 0 auto;
     font-family: 'Fredoka', sans-serif;
 }
 
-#tweet-img{
-    width:30px;
+#tweet-img {
+    width: 30px;
 }
 
-.line{
+.line {
     margin: 1rem;
     padding: 0.1px;
     background-color: gray;
 }
 
-iframe{
-    /* margin-left: 10%; */
+iframe {
     margin-top: 1rem;
     min-width: 90%;
 }
 
-.desc-txt{
-    
+.desc-txt {
+
     margin-top: 0.5rem;
     font-weight: 600;
 }
 
-.container{
+.container {
     position: relative;
 }
-.sidenav-container{
+
+.sidenav-container {
     position: fixed;
 }
 
-.main-container{
+.main-container {
     position: absolute;
     left: 10rem;
 }
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 0.1rem;
     border-bottom-right-radius: 1rem;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 2rem;
-    
+
 }
 
-.nav-pills{
+.nav-pills {
     text-align: right;
 }
-.list-non-bullet{
+
+.list-non-bullet {
     list-style: none;
 }
 
-.inline-item{
-    display:inline;
+.inline-item {
+    display: inline;
     padding: 0rem 0.5rem;
 }
 
-.heading-text{
+.heading-text {
     font-size: 1.3rem;
     font-weight: bold;
 }
-.links{
+
+.links {
     text-decoration: none;
-    /* margin-top: 3rem; */
     color: black;
     font-size: 1.5rem;
 }
-.links:hover{
+
+.links:hover {
     color: var(--primary-color);
 }
-.side-nav-link{
+
+.side-nav-link {
     margin-top: 1rem;
 }
 
 
-.simple-input{
+.simple-input {
     border: 1px solid var(--input-color);
     color: var(--input-color);
     padding: 0.5rem;
@@ -98,7 +100,7 @@ iframe{
     margin-top: 1rem;
 }
 
-.validate-text{
+.validate-text {
     color: red;
     margin-left: 1rem;
 

@@ -2,8 +2,6 @@
 
 :root{
     --primary-color: #34D399;
-    --secondary-color: ;
-    
 }
 
 
@@ -23,7 +21,6 @@ body{
 }
 
 iframe{
-    /* margin-left: 10%; */
     margin-top: 1rem;
     min-width: 90%;
 }
@@ -77,7 +74,6 @@ iframe{
 }
 .links{
     text-decoration: none;
-    /* margin-top: 3rem; */
     color: black;
     font-size: 1.5rem;
 }
@@ -110,7 +106,6 @@ iframe{
 .items{
     margin: 1rem;
     padding: 1rem;
-    /* width: 10rem; */
 }
 
 .stacked{

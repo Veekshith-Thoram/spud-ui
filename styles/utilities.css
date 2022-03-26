@@ -1,5 +1,4 @@
 :root {
-
     --primary-color: #34D399;
     --primary-text: #8F00FF;
     --grey: #EBECED;
@@ -25,5 +24,7 @@
     --secondary-btn: #22d3ee;
     --secondary-hover: #06b6d4;
     --input-color: #71717a;
-    
+    --list-secondary: rgb(36, 132, 211);
+    --list-danger: red;
+    --list-warning: rgb(150, 150, 16);
 }

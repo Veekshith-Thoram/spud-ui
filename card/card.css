@@ -1,0 +1,128 @@
+@import url(/styles/common.css);
+@import url(/styles/utilities.css);
+
+#card-with-badge {
+    position: relative;
+    width: 290px;
+    height: 230px;
+    text-align: center;
+    background-color: var(--card-bg);
+}
+
+#badge {
+    background-color: var(--badge-bg);
+    width: 3.37rem;
+    padding: 0.3rem;
+    color: rgb(217, 222, 235);
+    position: absolute;
+    top: 0rem;
+    left: 0.8rem;
+}
+
+#image-icon {
+    width: 18rem;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.3rem;
+}
+
+.btn {
+    background-color: var(--card-btn-bg);
+    border: none;
+    color: var(--text-overlay);
+    margin-left: 0.2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: black;
+}
+
+#dismiss {
+    position: absolute;
+    right: 0.3rem;
+    top: 0.1rem;
+    color: var(--text-overlay);
+}
+
+#dismiss:hover {
+    cursor: pointer;
+}
+
+.desc-overlay {
+    position: absolute;
+    bottom: 4rem;
+    color: var(--text-overlay);
+}
+
+.movie-overlay {
+    position: absolute;
+    bottom: 3rem;
+    color: var(--text-overlay);
+}
+
+#card-with-textoverlay {
+    position: relative;
+    width: 290px;
+    height: 200px;
+    text-align: center;
+    background-color: var(--card-bg);
+}
+
+#card-with-text {
+    position: relative;
+    width: 290px;
+    height: 70px;
+    text-align: center;
+    background-color: var(--card-bg);
+}
+
+.card-with-text-container {
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+}
+
+.horizontal-card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#image-icon-horizontal {
+    width: 10rem;
+}
+
+.fake-style {
+    position: absolute;
+}
+
+.btn-down {
+    bottom: 0.5rem;
+    right: 0.3rem;
+}
+
+.text-left {
+    right: -7.9rem;
+    top: 1rem;
+}
+
+#card-with-badge-horizontal {
+    position: relative;
+    width: 290px;
+    height: 120px;
+    text-align: center;
+    background-color: var(--card-bg);
+}
+
+#card-with-badge-shadow {
+    position: relative;
+    width: 290px;
+    height: 120px;
+    text-align: center;
+    background-color: var(--card-bg);
+    box-shadow: 3px 3px gray;
+}

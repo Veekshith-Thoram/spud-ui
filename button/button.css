@@ -13,7 +13,6 @@
 #delete-btn {
     background-color: var(--delete-btn);
     color: white;
-
 }
 
 #delete-btn:hover {
@@ -55,7 +54,6 @@
 #primary-outline:hover {
     background-color: var(--primary-color);
     color: white;
-    ;
 }
 
 #second-outline {

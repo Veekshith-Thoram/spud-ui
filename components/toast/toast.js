@@ -10,5 +10,4 @@ function displayToast() {
 
 function hide() {
     toastText.style.display = "none";
-
 }

@@ -1,0 +1,105 @@
+@import url(/styles/utilities.css);
+@import url(/styles/common.css);
+
+.basic-btn {
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 7rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#delete-btn {
+    background-color: var(--delete-btn);
+    color: white;
+}
+
+#delete-btn:hover {
+    background-color: var(--delete-btn-hover);
+}
+
+#disabled-btn {
+    background-color: var(--disabled-btn);
+    color: var(--disabled-btn-txt);
+}
+
+#disabled-btn:hover {
+    cursor: default;
+}
+
+#primary-btn {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#primary-btn:hover {
+    background-color: var(--primary-hover);
+}
+
+#secondary-btn {
+    background-color: var(--secondary-btn);
+    color: white;
+}
+
+#secondary-btn:hover {
+    background-color: var(--secondary-hover);
+}
+
+#primary-outline {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+#primary-outline:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#second-outline {
+    border: 2px solid var(--secondary-btn);
+    color: var(--secondary-btn);
+}
+
+#second-outline:hover {
+    background-color: var(--secondary-btn);
+    color: white;
+}
+
+.desc-txt {
+    font-weight: 600;
+}
+
+.icon-img {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.icon-btn {
+    margin: 1rem;
+    border: none;
+}
+
+.float-img {
+    width: 1.5rem
+}
+
+.float-btn {
+    width: 3rem;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 999999rem;
+    cursor: pointer;
+}
+
+.float-btn:hover {
+    background-color: var(--primary-hover);
+}
+
+.link-btn {
+    border: none;
+}
+
+#link-a {
+    color: black;
+}

@@ -1,0 +1,60 @@
+@import url(/styles/common.css);
+@import url(/styles/utilities.css);
+
+#primary-img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 3rem;
+}
+
+#success-img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 3rem;
+}
+
+#warning-img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 3rem;
+}
+
+#danger-img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 3rem;
+}
+
+
+.alert {
+    margin: 1rem;
+    padding: 1rem;
+    width: 30%;
+    position: relative;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+#alert-primary {
+    background-color: var(--primary-background);
+    color: var(--primary-text);
+}
+
+#alert-success {
+    background-color: var(--success-background);
+    color: var(--success-text);
+}
+
+#alert-warning {
+    background-color: var(--warning-alert);
+    color: var(--warning-text);
+}
+
+#alert-danger {
+    background-color: var(--danger-background);
+    color: var(--danger-text);
+}
+
+.alerts {
+    position: relative;
+}

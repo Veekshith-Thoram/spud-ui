@@ -24,6 +24,15 @@
     --secondary-btn: #22d3ee;
     --secondary-hover: #06b6d4;
     --input-color: #71717a;
+    --delete-btn-hover: red;
+    --delete-btn: #ef4444;
+    --disabled-btn: #d4d4d4;
+    --primary-dark: #272C33;
+    --secondary-dark: #3F4652;
+    --badge-bg: rgb(21, 173, 184);
+    --card-btn-bg: rgb(31, 224, 208);
+    --card-bg: #90e7f3;
+    --text-overlay: white;
     --list-secondary: rgb(36, 132, 211);
     --list-danger: red;
     --list-warning: rgb(150, 150, 16);

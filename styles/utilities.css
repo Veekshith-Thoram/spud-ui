@@ -25,5 +25,11 @@
     --secondary-btn: #22d3ee;
     --secondary-hover: #06b6d4;
     --input-color: #71717a;
-    
+    --delete-btn-hover: red;
+    --delete-btn: #ef4444;
+    --disabled-btn: #d4d4d4;
+    --disabled-btn-txt: #52525b;
+    --primary-hover: #34D399;
+    --secondary-btn: #22d3ee;
+    --secondary-hover: #06b6d4;
 }

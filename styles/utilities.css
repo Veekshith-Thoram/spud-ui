@@ -1,0 +1,29 @@
+:root {
+
+    --primary-color: #34D399;
+    --primary-text: #8F00FF;
+    --grey: #EBECED;
+    --primary-dark: #272C33;
+    --secondary-dark: #3F4652;
+    --primary-background: #cf9cf7;
+    --success-background: #b0f3d4;
+    --warning-alert: #fde68a;
+    --danger-background: #fd8181;
+    --light-blue: #b0ddf5;
+    --blue: #0381F7;
+    --danger-text: #DC2626;
+    --success-text: #059669;
+    --warning-text: #f59e0b;
+    --online-badge: green;
+    --offline-badge: red;
+    --busy-badge: gray;
+    --delete-btn-hover: red;
+    --delete-btn: #ef4444;
+    --disabled-btn: #d4d4d4;
+    --disabled-btn-txt: #52525b;
+    --primary-hover: #34D399;
+    --secondary-btn: #22d3ee;
+    --secondary-hover: #06b6d4;
+    --input-color: #71717a;
+    
+}

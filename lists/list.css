@@ -1,0 +1,48 @@
+@import url(/styles/utilities.css);
+@import url(/styles/common.css);
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.roman-list{
+    list-style: lower-roman;
+}
+
+.alphabet-list{
+    list-style: lower-alpha;
+}
+
+.numbered-list{
+    list-style: decimal;
+}
+
+.items{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.stacked{
+    list-style-type: none;
+    padding: 1rem;
+    margin: 1rem;
+    color: white;
+}
+
+.primary{
+    background-color: var(--primary-color);
+}
+
+.secondary{
+    background-color: var(--list-secondary);
+}
+
+.danger{
+    background-color: var(--list-danger);
+}
+
+.warning{
+    background-color: var(--list-warning);
+}

@@ -1,0 +1,35 @@
+@import url(/styles/utilities.css);
+@import url(/styles/common.css);
+
+.heading-txt {
+    font-size: 2rem;
+}
+
+#heading1 {
+    font-size: 3rem;
+}
+
+#heading2 {
+    font-size: 2rem;
+}
+
+#heading3 {
+    font-size: 1.5rem;
+}
+
+#heading4 {
+    font-size: 1rem;
+}
+
+#small-text {
+    font-size: 0.8rem;
+}
+
+#gray-text {
+    color: gray;
+}
+
+#center-text {
+    text-align: center;
+    font-weight: bold;
+}
